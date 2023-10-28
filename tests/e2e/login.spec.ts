@@ -10,4 +10,5 @@ test("LoginTest", async({page, baseURL})=>{
     await login.enterPassword("secret_sauce")
     await login.clickLogin()
     expect(await page.title()).toBe("Swag Labs")
+
 })

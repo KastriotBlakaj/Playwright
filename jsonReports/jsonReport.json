@@ -86,13 +86,13 @@
   },
   "suites": [
     {
-      "title": "e2e/login.spec.ts",
-      "file": "e2e/login.spec.ts",
+      "title": "e2e/addingItemsToCart.spec.ts",
+      "file": "e2e/addingItemsToCart.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "LoginTest",
+          "title": "Add Item to Cart and checkout ",
           "ok": true,
           "tags": [],
           "tests": [
@@ -106,17 +106,17 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2080,
+                  "duration": 2455,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-10-28T18:32:17.455Z",
+                  "startTime": "2023-10-28T21:46:30.091Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/kastriotblakaj/Desktop/Playwright/test-results/e2e-login-LoginTest-chromium/test-finished-1.png"
+                      "path": "/Users/kastriotblakaj/Desktop/Playwright/test-results/e2e-addingItemsToCart-Add-Item-to-Cart-and-checkout--chromium/test-finished-1.png"
                     }
                   ]
                 }
@@ -124,9 +124,9 @@
               "status": "expected"
             }
           ],
-          "id": "537b83cfbdf14afda252-1847dc2c62f2917cd574",
-          "file": "e2e/login.spec.ts",
-          "line": 6,
+          "id": "c9b7bd57223ac970daf3-d3b33b8dea4a45e87c0a",
+          "file": "e2e/addingItemsToCart.spec.ts",
+          "line": 7,
           "column": 5
         }
       ]
@@ -134,7 +134,7 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2023-10-28T18:32:17.269Z",
-    "duration": 2304.295
+    "startTime": "2023-10-28T21:46:29.895Z",
+    "duration": 3035.815
   }
 }
