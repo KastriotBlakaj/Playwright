@@ -1,0 +1,1183 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/kastriotblakaj/.nvm/versions/node/v18.17.0/bin/node',
+1 verbose cli   '/Users/kastriotblakaj/node_modules/.bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   '@playwright/test'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v18.17.0
+4 verbose install initial load of /Users/kastriotblakaj/Desktop/Playwright/package.json
+5 warn package.json Playwright@1.0.0 No description
+6 warn package.json Playwright@1.0.0 No repository field.
+7 warn package.json Playwright@1.0.0 No README data
+8 verbose readDependencies loading dependencies from /Users/kastriotblakaj/Desktop/Playwright/package.json
+9 silly cache add args [ '@playwright/test', null ]
+10 verbose cache add spec @playwright/test
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: '@playwright/test',
+11 silly cache add   scope: '@playwright',
+11 silly cache add   name: '@playwright/test',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: 'latest',
+11 silly cache add   type: 'tag'
+11 silly cache add }
+12 silly addNamed @playwright/test@latest
+13 verbose addNamed "latest" is being treated as a dist-tag for @playwright/test
+14 info addNameTag [ '@playwright/test', 'latest' ]
+15 silly mapToRegistry name @playwright/test
+16 silly mapToRegistry scope (from package name) @playwright
+17 verbose mapToRegistry no registry URL found in name for scope @playwright
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: '@playwright/test',
+20 silly mapToRegistry   scope: '@playwright',
+20 silly mapToRegistry   name: '@playwright/test',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag'
+20 silly mapToRegistry }
+21 silly mapToRegistry uri https://registry.npmjs.org/@playwright%2ftest
+22 verbose addNameTag registry:https://registry.npmjs.org/@playwright%2ftest not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/@playwright%2ftest
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 7:37:54 PM
+26 verbose request id ea61e745d621cb2e
+27 verbose etag W/"93671de0754e84fdafcd1e57b8fe5107"
+28 verbose lastModified Fri, 27 Oct 2023 00:25:19 GMT
+29 http request GET https://registry.npmjs.org/@playwright%2ftest
+30 http 200 https://registry.npmjs.org/@playwright%2ftest
+31 verbose headers {
+31 verbose headers   date: 'Sat, 28 Oct 2023 17:37:55 GMT',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'transfer-encoding': 'chunked',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'cf-ray': '81d4f30b3c3cc2e6-VIE',
+31 verbose headers   'cf-cache-status': 'REVALIDATED',
+31 verbose headers   'access-control-allow-origin': '*',
+31 verbose headers   'cache-control': 'public, max-age=300',
+31 verbose headers   etag: 'W/"e85d6c61fe00506d89fef16434245fe0"',
+31 verbose headers   'last-modified': 'Sat, 28 Oct 2023 00:25:22 GMT',
+31 verbose headers   vary: 'accept-encoding, accept',
+31 verbose headers   server: 'cloudflare',
+31 verbose headers   'content-encoding': 'gzip'
+31 verbose headers }
+32 silly get cb [
+32 silly get   200,
+32 silly get   {
+32 silly get     date: 'Sat, 28 Oct 2023 17:37:55 GMT',
+32 silly get     'content-type': 'application/json',
+32 silly get     'transfer-encoding': 'chunked',
+32 silly get     connection: 'keep-alive',
+32 silly get     'cf-ray': '81d4f30b3c3cc2e6-VIE',
+32 silly get     'cf-cache-status': 'REVALIDATED',
+32 silly get     'access-control-allow-origin': '*',
+32 silly get     'cache-control': 'public, max-age=300',
+32 silly get     etag: 'W/"e85d6c61fe00506d89fef16434245fe0"',
+32 silly get     'last-modified': 'Sat, 28 Oct 2023 00:25:22 GMT',
+32 silly get     vary: 'accept-encoding, accept',
+32 silly get     server: 'cloudflare',
+32 silly get     'content-encoding': 'gzip'
+32 silly get   }
+32 silly get ]
+33 verbose get saving @playwright/test to /Users/kastriotblakaj/.npm/registry.npmjs.org/_40playwright_252ftest/.cache.json
+34 verbose correctMkdir /Users/kastriotblakaj/.npm correctMkdir not in flight; initializing
+35 silly addNameTag next cb for @playwright/test with tag latest
+36 silly addNamed @playwright/test@1.39.0
+37 verbose addNamed "1.39.0" is a plain semver version for @playwright/test
+38 silly cache afterAdd @playwright/test@1.39.0
+39 verbose afterAdd /Users/kastriotblakaj/.npm/@playwright/test/1.39.0/package/package.json not in flight; writing
+40 verbose correctMkdir /Users/kastriotblakaj/.npm correctMkdir not in flight; initializing
+41 verbose afterAdd /Users/kastriotblakaj/.npm/@playwright/test/1.39.0/package/package.json written
+42 silly install resolved [
+42 silly install resolved   {
+42 silly install resolved     name: '@playwright/test',
+42 silly install resolved     version: '1.39.0',
+42 silly install resolved     description: 'A high-level API to automate web browsers',
+42 silly install resolved     repository: {
+42 silly install resolved       type: 'git',
+42 silly install resolved       url: 'git+https://github.com/microsoft/playwright.git'
+42 silly install resolved     },
+42 silly install resolved     homepage: 'https://playwright.dev',
+42 silly install resolved     engines: { node: '>=16' },
+42 silly install resolved     author: { name: 'Microsoft Corporation' },
+42 silly install resolved     license: 'Apache-2.0',
+42 silly install resolved     exports: {
+42 silly install resolved       '.': [Object],
+42 silly install resolved       './cli': './cli.js',
+42 silly install resolved       './package.json': './package.json',
+42 silly install resolved       './reporter': './reporter.js'
+42 silly install resolved     },
+42 silly install resolved     bin: { playwright: 'cli.js' },
+42 silly install resolved     scripts: {},
+42 silly install resolved     dependencies: { playwright: '1.39.0' },
+42 silly install resolved     _id: '@playwright/test@1.39.0',
+42 silly install resolved     gitHead: '3049d99bc8c76799817585a359502368bd6ba366',
+42 silly install resolved     types: './index.d.ts',
+42 silly install resolved     bugs: { url: 'https://github.com/microsoft/playwright/issues' },
+42 silly install resolved     _nodeVersion: '18.18.0',
+42 silly install resolved     _npmVersion: '9.8.1',
+42 silly install resolved     dist: {
+42 silly install resolved       integrity: 'sha512-3u1iFqgzl7zr004bGPYiN/5EZpRUSFddQBra8Rqll5N0/vfpqlP9I9EXqAoGacuAbX6c9Ulg/Cjqglp5VkK6UQ==',
+42 silly install resolved       shasum: 'd10ba8e38e44104499e25001945f07faa9fa91cd',
+42 silly install resolved       tarball: 'https://registry.npmjs.org/@playwright/test/-/test-1.39.0.tgz',
+42 silly install resolved       fileCount: 11,
+42 silly install resolved       unpackedSize: 25318,
+42 silly install resolved       attestations: [Object],
+42 silly install resolved       signatures: [Array]
+42 silly install resolved     },
+42 silly install resolved     _npmUser: { name: 'aslushnikov', email: 'aslushnikov@gmail.com' },
+42 silly install resolved     directories: {},
+42 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+42 silly install resolved     _npmOperationalInternal: {
+42 silly install resolved       host: 's3://npm-registry-packages',
+42 silly install resolved       tmp: 'tmp/test_1.39.0_1697062485420_0.046209054741023436'
+42 silly install resolved     },
+42 silly install resolved     _hasShrinkwrap: false,
+42 silly install resolved     _shasum: 'd10ba8e38e44104499e25001945f07faa9fa91cd',
+42 silly install resolved     _resolved: 'https://registry.npmjs.org/@playwright/test/-/test-1.39.0.tgz',
+42 silly install resolved     _from: '@playwright/test@latest',
+42 silly install resolved     readme: 'ERROR: No README data found!'
+42 silly install resolved   }
+42 silly install resolved ]
+43 info install @playwright/test@1.39.0 into /Users/kastriotblakaj/Desktop/Playwright
+44 info installOne @playwright/test@1.39.0
+45 verbose installOne of @playwright/test to /Users/kastriotblakaj/Desktop/Playwright not in flight; installing
+46 verbose correctMkdir /Users/kastriotblakaj/.npm/_locks correctMkdir not in flight; initializing
+47 verbose lock using /Users/kastriotblakaj/.npm/_locks/playwright-test-fd4cd84bb3d99d72.lock for /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test
+48 silly install write writing @playwright/test 1.39.0 to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test
+49 verbose unbuild node_modules/@playwright/test
+50 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test is being purged from base /Users/kastriotblakaj/Desktop/Playwright
+51 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test
+52 verbose tar unpack /Users/kastriotblakaj/.npm/@playwright/test/1.39.0/package.tgz
+53 verbose tar unpacking to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test
+54 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test is being purged
+55 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry LICENSE
+58 silly gunzTarPerm extractEntry NOTICE
+59 silly gunzTarPerm extractEntry cli.js
+60 silly gunzTarPerm extractEntry index.js
+61 silly gunzTarPerm extractEntry reporter.js
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry README.md
+64 silly gunzTarPerm extractEntry index.mjs
+65 silly gunzTarPerm extractEntry reporter.mjs
+66 silly gunzTarPerm extractEntry index.d.ts
+67 silly gunzTarPerm extractEntry reporter.d.ts
+68 verbose write writing to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/package.json
+69 info preinstall @playwright/test@1.39.0
+70 verbose readDependencies loading dependencies from /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/package.json
+71 silly prepareForInstallMany adding playwright@1.39.0 from @playwright/test dependencies
+72 verbose readDependencies loading dependencies from /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/package.json
+73 silly cache add args [ 'playwright@1.39.0', null ]
+74 verbose cache add spec playwright@1.39.0
+75 silly cache add parsed spec Result {
+75 silly cache add   raw: 'playwright@1.39.0',
+75 silly cache add   scope: null,
+75 silly cache add   name: 'playwright',
+75 silly cache add   rawSpec: '1.39.0',
+75 silly cache add   spec: '1.39.0',
+75 silly cache add   type: 'version'
+75 silly cache add }
+76 silly addNamed playwright@1.39.0
+77 verbose addNamed "1.39.0" is a plain semver version for playwright
+78 silly mapToRegistry name playwright
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: 'playwright',
+81 silly mapToRegistry   scope: null,
+81 silly mapToRegistry   name: 'playwright',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag'
+81 silly mapToRegistry }
+82 silly mapToRegistry uri https://registry.npmjs.org/playwright
+83 verbose addNameVersion registry:https://registry.npmjs.org/playwright not in flight; fetching
+84 verbose request uri https://registry.npmjs.org/playwright
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 7:37:57 PM
+87 verbose etag W/"3a1074eb6bb96760d8d46dec67905557"
+88 verbose lastModified Fri, 27 Oct 2023 00:24:52 GMT
+89 http request GET https://registry.npmjs.org/playwright
+90 http 200 https://registry.npmjs.org/playwright
+91 verbose headers {
+91 verbose headers   date: 'Sat, 28 Oct 2023 17:37:58 GMT',
+91 verbose headers   'content-type': 'application/json',
+91 verbose headers   'transfer-encoding': 'chunked',
+91 verbose headers   connection: 'keep-alive',
+91 verbose headers   'cf-ray': '81d4f31d1a02c2e6-VIE',
+91 verbose headers   'cf-cache-status': 'REVALIDATED',
+91 verbose headers   'access-control-allow-origin': '*',
+91 verbose headers   'cache-control': 'public, max-age=300',
+91 verbose headers   etag: 'W/"10a995362513d9a7cf903b095a988469"',
+91 verbose headers   'last-modified': 'Sat, 28 Oct 2023 00:24:56 GMT',
+91 verbose headers   vary: 'accept-encoding, accept',
+91 verbose headers   server: 'cloudflare',
+91 verbose headers   'content-encoding': 'gzip'
+91 verbose headers }
+92 silly get cb [
+92 silly get   200,
+92 silly get   {
+92 silly get     date: 'Sat, 28 Oct 2023 17:37:58 GMT',
+92 silly get     'content-type': 'application/json',
+92 silly get     'transfer-encoding': 'chunked',
+92 silly get     connection: 'keep-alive',
+92 silly get     'cf-ray': '81d4f31d1a02c2e6-VIE',
+92 silly get     'cf-cache-status': 'REVALIDATED',
+92 silly get     'access-control-allow-origin': '*',
+92 silly get     'cache-control': 'public, max-age=300',
+92 silly get     etag: 'W/"10a995362513d9a7cf903b095a988469"',
+92 silly get     'last-modified': 'Sat, 28 Oct 2023 00:24:56 GMT',
+92 silly get     vary: 'accept-encoding, accept',
+92 silly get     server: 'cloudflare',
+92 silly get     'content-encoding': 'gzip'
+92 silly get   }
+92 silly get ]
+93 verbose get saving playwright to /Users/kastriotblakaj/.npm/registry.npmjs.org/playwright/.cache.json
+94 verbose correctMkdir /Users/kastriotblakaj/.npm correctMkdir not in flight; initializing
+95 silly mapToRegistry name playwright
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry data Result {
+98 silly mapToRegistry   raw: 'playwright',
+98 silly mapToRegistry   scope: null,
+98 silly mapToRegistry   name: 'playwright',
+98 silly mapToRegistry   rawSpec: '',
+98 silly mapToRegistry   spec: 'latest',
+98 silly mapToRegistry   type: 'tag'
+98 silly mapToRegistry }
+99 silly mapToRegistry uri https://registry.npmjs.org/playwright
+100 verbose addRemoteTarball https://registry.npmjs.org/playwright/-/playwright-1.39.0.tgz not in flight; adding
+101 verbose addRemoteTarball [
+101 verbose addRemoteTarball   'https://registry.npmjs.org/playwright/-/playwright-1.39.0.tgz',
+101 verbose addRemoteTarball   '184c81cd6478f8da28bcd9e60e94fcebf566e077'
+101 verbose addRemoteTarball ]
+102 info retry fetch attempt 1 at 7:37:59 PM
+103 info attempt registry request try #1 at 7:37:59 PM
+104 http fetch GET https://registry.npmjs.org/playwright/-/playwright-1.39.0.tgz
+105 http fetch 200 https://registry.npmjs.org/playwright/-/playwright-1.39.0.tgz
+106 silly fetchAndShaCheck shasum 184c81cd6478f8da28bcd9e60e94fcebf566e077
+107 verbose addTmpTarball /var/folders/dw/vdbdg13j25j2pz9ygdw1svgh0000gn/T/npm-4606-3d92e6b0/registry.npmjs.org/playwright/-/playwright-1.39.0.tgz not in flight; adding
+108 verbose addTmpTarball already have metadata; skipping unpack for playwright@1.39.0
+109 verbose correctMkdir /Users/kastriotblakaj/.npm correctMkdir not in flight; initializing
+110 silly cache afterAdd playwright@1.39.0
+111 verbose afterAdd /Users/kastriotblakaj/.npm/playwright/1.39.0/package/package.json not in flight; writing
+112 verbose correctMkdir /Users/kastriotblakaj/.npm correctMkdir not in flight; initializing
+113 verbose afterAdd /Users/kastriotblakaj/.npm/playwright/1.39.0/package/package.json written
+114 silly install resolved [
+114 silly install resolved   {
+114 silly install resolved     name: 'playwright',
+114 silly install resolved     version: '1.39.0',
+114 silly install resolved     description: 'A high-level API to automate web browsers',
+114 silly install resolved     repository: {
+114 silly install resolved       type: 'git',
+114 silly install resolved       url: 'git+https://github.com/microsoft/playwright.git'
+114 silly install resolved     },
+114 silly install resolved     homepage: 'https://playwright.dev',
+114 silly install resolved     engines: { node: '>=16' },
+114 silly install resolved     main: 'index.js',
+114 silly install resolved     exports: {
+114 silly install resolved       '.': [Object],
+114 silly install resolved       './cli': './cli.js',
+114 silly install resolved       './package.json': './package.json',
+114 silly install resolved       './lib/cli': './lib/cli.js',
+114 silly install resolved       './lib/transform/babelBundle': './lib/transform/babelBundle.js',
+114 silly install resolved       './lib/transform/compilationCache': './lib/transform/compilationCache.js',
+114 silly install resolved       './lib/transform/esmLoader': './lib/transform/esmLoader.js',
+114 silly install resolved       './lib/internalsForTest': './lib/internalsForTest.js',
+114 silly install resolved       './lib/plugins': './lib/plugins/index.js',
+114 silly install resolved       './jsx-runtime': [Object],
+114 silly install resolved       './lib/util': './lib/util.js',
+114 silly install resolved       './lib/utilsBundle': './lib/utilsBundle.js',
+114 silly install resolved       './types/test': [Object],
+114 silly install resolved       './types/testReporter': [Object],
+114 silly install resolved       './test': [Object]
+114 silly install resolved     },
+114 silly install resolved     bin: { playwright: 'cli.js' },
+114 silly install resolved     author: { name: 'Microsoft Corporation' },
+114 silly install resolved     license: 'Apache-2.0',
+114 silly install resolved     dependencies: { 'playwright-core': '1.39.0' },
+114 silly install resolved     optionalDependencies: { fsevents: '2.3.2' },
+114 silly install resolved     _id: 'playwright@1.39.0',
+114 silly install resolved     gitHead: '3049d99bc8c76799817585a359502368bd6ba366',
+114 silly install resolved     types: './index.d.ts',
+114 silly install resolved     bugs: { url: 'https://github.com/microsoft/playwright/issues' },
+114 silly install resolved     _nodeVersion: '18.18.0',
+114 silly install resolved     _npmVersion: '9.8.1',
+114 silly install resolved     dist: {
+114 silly install resolved       integrity: 'sha512-naE5QT11uC/Oiq0BwZ50gDmy8c8WLPRTEWuSSFVG2egBka/1qMoSqYQcROMT9zLwJ86oPofcTH2jBY/5wWOgIw==',
+114 silly install resolved       shasum: '184c81cd6478f8da28bcd9e60e94fcebf566e077',
+114 silly install resolved       tarball: 'https://registry.npmjs.org/playwright/-/playwright-1.39.0.tgz',
+114 silly install resolved       fileCount: 96,
+114 silly install resolved       unpackedSize: 2892209,
+114 silly install resolved       attestations: [Object],
+114 silly install resolved       signatures: [Array]
+114 silly install resolved     },
+114 silly install resolved     _npmUser: { name: 'aslushnikov', email: 'aslushnikov@gmail.com' },
+114 silly install resolved     directories: {},
+114 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+114 silly install resolved     _npmOperationalInternal: {
+114 silly install resolved       host: 's3://npm-registry-packages',
+114 silly install resolved       tmp: 'tmp/playwright_1.39.0_1697062454838_0.7737495401898344'
+114 silly install resolved     },
+114 silly install resolved     _hasShrinkwrap: false,
+114 silly install resolved     _shasum: '184c81cd6478f8da28bcd9e60e94fcebf566e077',
+114 silly install resolved     _resolved: 'https://registry.npmjs.org/playwright/-/playwright-1.39.0.tgz',
+114 silly install resolved     _from: 'playwright@1.39.0'
+114 silly install resolved   }
+114 silly install resolved ]
+115 info install playwright@1.39.0 into /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test
+116 info installOne playwright@1.39.0
+117 verbose installOne of playwright to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test not in flight; installing
+118 verbose correctMkdir /Users/kastriotblakaj/.npm/_locks correctMkdir not in flight; initializing
+119 verbose lock using /Users/kastriotblakaj/.npm/_locks/playwright-620903a97eeff8d5.lock for /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright
+120 silly install write writing playwright 1.39.0 to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright
+121 verbose unbuild node_modules/@playwright/test/node_modules/playwright
+122 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright is being purged from base /Users/kastriotblakaj/Desktop/Playwright
+123 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright
+124 verbose tar unpack /Users/kastriotblakaj/.npm/playwright/1.39.0/package.tgz
+125 verbose tar unpacking to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright
+126 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright is being purged
+127 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright
+128 silly gunzTarPerm modes [ '755', '644' ]
+129 silly gunzTarPerm extractEntry LICENSE
+130 silly gunzTarPerm extractEntry NOTICE
+131 silly gunzTarPerm extractEntry .eslintrc.js
+132 silly gunzTarPerm extractEntry lib/transform/babelBundle.js
+133 silly gunzTarPerm extractEntry lib/transform/babelBundleImpl.js
+134 silly gunzTarPerm extractEntry lib/reporters/base.js
+135 silly gunzTarPerm extractEntry lib/reporters/blob.js
+136 silly gunzTarPerm extractEntry cli.js
+137 silly gunzTarPerm extractEntry lib/cli.js
+138 silly gunzTarPerm extractEntry lib/transform/compilationCache.js
+139 silly gunzTarPerm extractEntry lib/common/config.js
+140 silly gunzTarPerm extractEntry lib/common/configLoader.js
+141 silly gunzTarPerm extractEntry lib/runner/dispatcher.js
+142 silly gunzTarPerm extractEntry lib/reporters/dot.js
+143 silly gunzTarPerm extractEntry lib/reporters/empty.js
+144 silly gunzTarPerm extractEntry lib/transform/esmLoader.js
+145 silly gunzTarPerm extractEntry lib/common/esmLoaderHost.js
+146 silly gunzTarPerm extractEntry lib/matchers/expect.js
+147 silly gunzTarPerm extractEntry lib/common/expectBundle.js
+148 silly gunzTarPerm extractEntry lib/common/expectBundleImpl.js
+149 silly gunzTarPerm extractEntry lib/runner/failureTracker.js
+150 silly gunzTarPerm extractEntry lib/worker/fixtureRunner.js
+151 silly gunzTarPerm extractEntry lib/common/fixtures.js
+152 silly gunzTarPerm extractEntry lib/isomorphic/folders.js
+153 silly gunzTarPerm extractEntry lib/plugins/gitCommitInfoPlugin.js
+154 silly gunzTarPerm extractEntry lib/reporters/github.js
+155 silly gunzTarPerm extractEntry lib/common/globals.js
+156 silly gunzTarPerm extractEntry lib/reporters/html.js
+157 silly gunzTarPerm extractEntry index.js
+158 silly gunzTarPerm extractEntry lib/index.js
+159 silly gunzTarPerm extractEntry lib/plugins/index.js
+160 silly gunzTarPerm extractEntry lib/reporters/internalReporter.js
+161 silly gunzTarPerm extractEntry lib/internalsForTest.js
+162 silly gunzTarPerm extractEntry lib/common/ipc.js
+163 silly gunzTarPerm extractEntry lib/reporters/json.js
+164 silly gunzTarPerm extractEntry jsx-runtime.js
+165 silly gunzTarPerm extractEntry lib/reporters/junit.js
+166 silly gunzTarPerm extractEntry lib/reporters/line.js
+167 silly gunzTarPerm extractEntry lib/reporters/list.js
+168 silly gunzTarPerm extractEntry lib/runner/loaderHost.js
+169 silly gunzTarPerm extractEntry lib/loader/loaderMain.js
+170 silly gunzTarPerm extractEntry lib/runner/loadUtils.js
+171 silly gunzTarPerm extractEntry lib/reporters/markdown.js
+172 silly gunzTarPerm extractEntry lib/matchers/matcherHint.js
+173 silly gunzTarPerm extractEntry lib/matchers/matchers.js
+174 silly gunzTarPerm extractEntry lib/reporters/merge.js
+175 silly gunzTarPerm extractEntry lib/reporters/multiplexer.js
+176 silly gunzTarPerm extractEntry lib/common/poolBuilder.js
+177 silly gunzTarPerm extractEntry lib/transform/portTransport.js
+178 silly gunzTarPerm extractEntry lib/common/process.js
+179 silly gunzTarPerm extractEntry lib/runner/processHost.js
+180 silly gunzTarPerm extractEntry lib/runner/projectUtils.js
+181 silly gunzTarPerm extractEntry lib/runner/reporters.js
+182 silly gunzTarPerm extractEntry lib/reporters/reporterV2.js
+183 silly gunzTarPerm extractEntry lib/runner/runner.js
+184 silly gunzTarPerm extractEntry lib/runner/sigIntWatcher.js
+185 silly gunzTarPerm extractEntry lib/store.js
+186 silly gunzTarPerm extractEntry lib/isomorphic/stringInternPool.js
+187 silly gunzTarPerm extractEntry lib/common/suiteUtils.js
+188 silly gunzTarPerm extractEntry lib/runner/taskRunner.js
+189 silly gunzTarPerm extractEntry lib/runner/tasks.js
+190 silly gunzTarPerm extractEntry lib/reporters/teleEmitter.js
+191 silly gunzTarPerm extractEntry lib/isomorphic/teleReceiver.js
+192 silly gunzTarPerm extractEntry lib/common/test.js
+193 silly gunzTarPerm extractEntry test.js
+194 silly gunzTarPerm extractEntry lib/runner/testGroups.js
+195 silly gunzTarPerm extractEntry lib/worker/testInfo.js
+196 silly gunzTarPerm extractEntry lib/common/testLoader.js
+197 silly gunzTarPerm extractEntry lib/worker/testTracing.js
+198 silly gunzTarPerm extractEntry lib/common/testType.js
+199 silly gunzTarPerm extractEntry lib/worker/timeoutManager.js
+200 silly gunzTarPerm extractEntry lib/matchers/toBeTruthy.js
+201 silly gunzTarPerm extractEntry lib/matchers/toEqual.js
+202 silly gunzTarPerm extractEntry lib/matchers/toMatchSnapshot.js
+203 silly gunzTarPerm extractEntry lib/matchers/toMatchText.js
+204 silly gunzTarPerm extractEntry lib/transform/transform.js
+205 silly gunzTarPerm extractEntry lib/third_party/tsconfig-loader.js
+206 silly gunzTarPerm extractEntry lib/runner/uiMode.js
+207 silly gunzTarPerm extractEntry lib/util.js
+208 silly gunzTarPerm extractEntry lib/utilsBundle.js
+209 silly gunzTarPerm extractEntry lib/utilsBundleImpl.js
+210 silly gunzTarPerm extractEntry lib/runner/watchMode.js
+211 silly gunzTarPerm extractEntry lib/plugins/webServerPlugin.js
+212 silly gunzTarPerm extractEntry lib/runner/workerHost.js
+213 silly gunzTarPerm extractEntry lib/worker/workerMain.js
+214 silly gunzTarPerm extractEntry package.json
+215 silly gunzTarPerm extractEntry README.md
+216 silly gunzTarPerm extractEntry index.mjs
+217 silly gunzTarPerm extractEntry jsx-runtime.mjs
+218 silly gunzTarPerm extractEntry test.mjs
+219 silly gunzTarPerm extractEntry index.d.ts
+220 silly gunzTarPerm extractEntry types/reporterPrivate.ts
+221 silly gunzTarPerm extractEntry test.d.ts
+222 silly gunzTarPerm extractEntry types/test.d.ts
+223 silly gunzTarPerm extractEntry types/testReporter.d.ts
+224 silly gunzTarPerm extractEntry ThirdPartyNotices.txt
+225 verbose write writing to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/package.json
+226 info preinstall playwright@1.39.0
+227 verbose readDependencies loading dependencies from /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/package.json
+228 silly prepareForInstallMany adding playwright-core@1.39.0 from playwright dependencies
+229 silly prepareForInstallMany adding fsevents@2.3.2 from playwright dependencies
+230 verbose readDependencies loading dependencies from /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/package.json
+231 silly cache add args [ 'playwright-core@1.39.0', null ]
+232 verbose cache add spec playwright-core@1.39.0
+233 silly cache add parsed spec Result {
+233 silly cache add   raw: 'playwright-core@1.39.0',
+233 silly cache add   scope: null,
+233 silly cache add   name: 'playwright-core',
+233 silly cache add   rawSpec: '1.39.0',
+233 silly cache add   spec: '1.39.0',
+233 silly cache add   type: 'version'
+233 silly cache add }
+234 silly addNamed playwright-core@1.39.0
+235 verbose addNamed "1.39.0" is a plain semver version for playwright-core
+236 silly mapToRegistry name playwright-core
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npmjs.org/
+239 silly mapToRegistry data Result {
+239 silly mapToRegistry   raw: 'playwright-core',
+239 silly mapToRegistry   scope: null,
+239 silly mapToRegistry   name: 'playwright-core',
+239 silly mapToRegistry   rawSpec: '',
+239 silly mapToRegistry   spec: 'latest',
+239 silly mapToRegistry   type: 'tag'
+239 silly mapToRegistry }
+240 silly mapToRegistry uri https://registry.npmjs.org/playwright-core
+241 verbose addNameVersion registry:https://registry.npmjs.org/playwright-core not in flight; fetching
+242 silly cache add args [ 'fsevents@2.3.2', null ]
+243 verbose cache add spec fsevents@2.3.2
+244 silly cache add parsed spec Result {
+244 silly cache add   raw: 'fsevents@2.3.2',
+244 silly cache add   scope: null,
+244 silly cache add   name: 'fsevents',
+244 silly cache add   rawSpec: '2.3.2',
+244 silly cache add   spec: '2.3.2',
+244 silly cache add   type: 'version'
+244 silly cache add }
+245 silly addNamed fsevents@2.3.2
+246 verbose addNamed "2.3.2" is a plain semver version for fsevents
+247 silly mapToRegistry name fsevents
+248 silly mapToRegistry using default registry
+249 silly mapToRegistry registry https://registry.npmjs.org/
+250 silly mapToRegistry data Result {
+250 silly mapToRegistry   raw: 'fsevents',
+250 silly mapToRegistry   scope: null,
+250 silly mapToRegistry   name: 'fsevents',
+250 silly mapToRegistry   rawSpec: '',
+250 silly mapToRegistry   spec: 'latest',
+250 silly mapToRegistry   type: 'tag'
+250 silly mapToRegistry }
+251 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+252 verbose addNameVersion registry:https://registry.npmjs.org/fsevents not in flight; fetching
+253 verbose request uri https://registry.npmjs.org/fsevents
+254 verbose request no auth needed
+255 info attempt registry request try #1 at 7:37:59 PM
+256 verbose etag W/"f5138f87e80ddfba9e647e1f0c30f217"
+257 verbose lastModified Mon, 21 Aug 2023 16:24:25 GMT
+258 http request GET https://registry.npmjs.org/fsevents
+259 verbose request uri https://registry.npmjs.org/playwright-core
+260 verbose request no auth needed
+261 info attempt registry request try #1 at 7:37:59 PM
+262 verbose etag W/"7aff15fc9952a92966e458bbfbb8bde4"
+263 verbose lastModified Fri, 27 Oct 2023 00:25:11 GMT
+264 http request GET https://registry.npmjs.org/playwright-core
+265 http 304 https://registry.npmjs.org/fsevents
+266 verbose headers {
+266 verbose headers   date: 'Sat, 28 Oct 2023 17:37:59 GMT',
+266 verbose headers   connection: 'keep-alive',
+266 verbose headers   'cf-ray': '81d4f32bbc5bc2e6-VIE',
+266 verbose headers   'cf-cache-status': 'HIT',
+266 verbose headers   age: '46',
+266 verbose headers   'cache-control': 'public, max-age=300',
+266 verbose headers   etag: '"f5138f87e80ddfba9e647e1f0c30f217"',
+266 verbose headers   'last-modified': 'Mon, 21 Aug 2023 16:24:25 GMT',
+266 verbose headers   vary: 'Accept-Encoding',
+266 verbose headers   server: 'cloudflare'
+266 verbose headers }
+267 silly get cb [
+267 silly get   304,
+267 silly get   {
+267 silly get     date: 'Sat, 28 Oct 2023 17:37:59 GMT',
+267 silly get     connection: 'keep-alive',
+267 silly get     'cf-ray': '81d4f32bbc5bc2e6-VIE',
+267 silly get     'cf-cache-status': 'HIT',
+267 silly get     age: '46',
+267 silly get     'cache-control': 'public, max-age=300',
+267 silly get     etag: '"f5138f87e80ddfba9e647e1f0c30f217"',
+267 silly get     'last-modified': 'Mon, 21 Aug 2023 16:24:25 GMT',
+267 silly get     vary: 'Accept-Encoding',
+267 silly get     server: 'cloudflare'
+267 silly get   }
+267 silly get ]
+268 verbose etag https://registry.npmjs.org/fsevents from cache
+269 verbose get saving fsevents to /Users/kastriotblakaj/.npm/registry.npmjs.org/fsevents/.cache.json
+270 verbose correctMkdir /Users/kastriotblakaj/.npm correctMkdir not in flight; initializing
+271 silly cache afterAdd fsevents@2.3.2
+272 verbose afterAdd /Users/kastriotblakaj/.npm/fsevents/2.3.2/package/package.json not in flight; writing
+273 verbose correctMkdir /Users/kastriotblakaj/.npm correctMkdir not in flight; initializing
+274 verbose afterAdd /Users/kastriotblakaj/.npm/fsevents/2.3.2/package/package.json written
+275 http 200 https://registry.npmjs.org/playwright-core
+276 verbose headers {
+276 verbose headers   date: 'Sat, 28 Oct 2023 17:38:00 GMT',
+276 verbose headers   'content-type': 'application/json',
+276 verbose headers   'transfer-encoding': 'chunked',
+276 verbose headers   connection: 'keep-alive',
+276 verbose headers   'cf-ray': '81d4f32cc8be5aeb-VIE',
+276 verbose headers   'cf-cache-status': 'REVALIDATED',
+276 verbose headers   'access-control-allow-origin': '*',
+276 verbose headers   'cache-control': 'public, max-age=300',
+276 verbose headers   etag: 'W/"c24e82baf8888f3ddd0bd3339b4acf43"',
+276 verbose headers   'last-modified': 'Sat, 28 Oct 2023 00:25:11 GMT',
+276 verbose headers   vary: 'accept-encoding, accept',
+276 verbose headers   server: 'cloudflare',
+276 verbose headers   'content-encoding': 'gzip'
+276 verbose headers }
+277 silly get cb [
+277 silly get   200,
+277 silly get   {
+277 silly get     date: 'Sat, 28 Oct 2023 17:38:00 GMT',
+277 silly get     'content-type': 'application/json',
+277 silly get     'transfer-encoding': 'chunked',
+277 silly get     connection: 'keep-alive',
+277 silly get     'cf-ray': '81d4f32cc8be5aeb-VIE',
+277 silly get     'cf-cache-status': 'REVALIDATED',
+277 silly get     'access-control-allow-origin': '*',
+277 silly get     'cache-control': 'public, max-age=300',
+277 silly get     etag: 'W/"c24e82baf8888f3ddd0bd3339b4acf43"',
+277 silly get     'last-modified': 'Sat, 28 Oct 2023 00:25:11 GMT',
+277 silly get     vary: 'accept-encoding, accept',
+277 silly get     server: 'cloudflare',
+277 silly get     'content-encoding': 'gzip'
+277 silly get   }
+277 silly get ]
+278 verbose get saving playwright-core to /Users/kastriotblakaj/.npm/registry.npmjs.org/playwright-core/.cache.json
+279 verbose correctMkdir /Users/kastriotblakaj/.npm correctMkdir not in flight; initializing
+280 silly mapToRegistry name playwright-core
+281 silly mapToRegistry using default registry
+282 silly mapToRegistry registry https://registry.npmjs.org/
+283 silly mapToRegistry data Result {
+283 silly mapToRegistry   raw: 'playwright-core',
+283 silly mapToRegistry   scope: null,
+283 silly mapToRegistry   name: 'playwright-core',
+283 silly mapToRegistry   rawSpec: '',
+283 silly mapToRegistry   spec: 'latest',
+283 silly mapToRegistry   type: 'tag'
+283 silly mapToRegistry }
+284 silly mapToRegistry uri https://registry.npmjs.org/playwright-core
+285 verbose addRemoteTarball https://registry.npmjs.org/playwright-core/-/playwright-core-1.39.0.tgz not in flight; adding
+286 verbose addRemoteTarball [
+286 verbose addRemoteTarball   'https://registry.npmjs.org/playwright-core/-/playwright-core-1.39.0.tgz',
+286 verbose addRemoteTarball   'efeaea754af4fb170d11845b8da30b2323287c63'
+286 verbose addRemoteTarball ]
+287 info retry fetch attempt 1 at 7:38:01 PM
+288 info attempt registry request try #1 at 7:38:01 PM
+289 http fetch GET https://registry.npmjs.org/playwright-core/-/playwright-core-1.39.0.tgz
+290 http fetch 200 https://registry.npmjs.org/playwright-core/-/playwright-core-1.39.0.tgz
+291 silly fetchAndShaCheck shasum efeaea754af4fb170d11845b8da30b2323287c63
+292 verbose addTmpTarball /var/folders/dw/vdbdg13j25j2pz9ygdw1svgh0000gn/T/npm-4606-3d92e6b0/registry.npmjs.org/playwright-core/-/playwright-core-1.39.0.tgz not in flight; adding
+293 verbose addTmpTarball already have metadata; skipping unpack for playwright-core@1.39.0
+294 verbose correctMkdir /Users/kastriotblakaj/.npm correctMkdir not in flight; initializing
+295 silly cache afterAdd playwright-core@1.39.0
+296 verbose afterAdd /Users/kastriotblakaj/.npm/playwright-core/1.39.0/package/package.json not in flight; writing
+297 verbose correctMkdir /Users/kastriotblakaj/.npm correctMkdir not in flight; initializing
+298 verbose afterAdd /Users/kastriotblakaj/.npm/playwright-core/1.39.0/package/package.json written
+299 silly install resolved [
+299 silly install resolved   {
+299 silly install resolved     name: 'fsevents',
+299 silly install resolved     version: '2.3.2',
+299 silly install resolved     description: 'Native Access to MacOS FSEvents',
+299 silly install resolved     main: 'fsevents.js',
+299 silly install resolved     types: 'fsevents.d.ts',
+299 silly install resolved     os: [ 'darwin' ],
+299 silly install resolved     engines: { node: '^8.16.0 || ^10.6.0 || >=11.0.0' },
+299 silly install resolved     scripts: {
+299 silly install resolved       clean: 'node-gyp clean && rm -f fsevents.node',
+299 silly install resolved       build: 'node-gyp clean && rm -f fsevents.node && node-gyp rebuild && node-gyp clean',
+299 silly install resolved       test: '/bin/bash ./test.sh 2>/dev/null',
+299 silly install resolved       prepublishOnly: 'npm run build',
+299 silly install resolved       install: 'node-gyp rebuild'
+299 silly install resolved     },
+299 silly install resolved     repository: {
+299 silly install resolved       type: 'git',
+299 silly install resolved       url: 'git+https://github.com/fsevents/fsevents.git'
+299 silly install resolved     },
+299 silly install resolved     keywords: [ 'fsevents', 'mac' ],
+299 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+299 silly install resolved     license: 'MIT',
+299 silly install resolved     bugs: { url: 'https://github.com/fsevents/fsevents/issues' },
+299 silly install resolved     homepage: 'https://github.com/fsevents/fsevents',
+299 silly install resolved     devDependencies: { 'node-gyp': '^6.1.0' },
+299 silly install resolved     gypfile: true,
+299 silly install resolved     gitHead: 'a7f5d00939b74e141a73131468c4ce48ee0f2197',
+299 silly install resolved     _id: 'fsevents@2.3.2',
+299 silly install resolved     _nodeVersion: '12.20.1',
+299 silly install resolved     _npmVersion: '6.14.10',
+299 silly install resolved     dist: {
+299 silly install resolved       integrity: 'sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==',
+299 silly install resolved       shasum: '8a526f78b8fdf4623b709e0b975c52c24c02fd1a',
+299 silly install resolved       tarball: 'https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz',
+299 silly install resolved       fileCount: 6,
+299 silly install resolved       unpackedSize: 156422,
+299 silly install resolved       'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\n' +
+299 silly install resolved         'Version: OpenPGP.js v3.0.13\r\n' +
+299 silly install resolved         'Comment: https://openpgpjs.org\r\n' +
+299 silly install resolved         '\r\n' +
+299 silly install resolved         'wsFcBAEBCAAQBQJgHVpKCRA9TVsSAnZWagAAJFMP/Ahi5vRQPbZHNkG+zric\n' +
+299 silly install resolved         '4/j4kF5XpaQvxCGy75GHF6rNNn7uM3FHjsmbfGjMfnvA+cSVCnbrbI45lhEX\n' +
+299 silly install resolved         'LWPTAPwb+Plxk9daosAj9IFqDyUFFewS/+dw5wRtP4zfCfa9jT9lsd7sMTee\n' +
+299 silly install resolved         'rrmWbMb2DLRexKeokZvoBj0RUKOMSHB2oD6/ITulCiD59kwJndxU+nV+NnUC\n' +
+299 silly install resolved         'ycYJY2CQ+jLQQovBWtge5Qv7ur6woVkNmBstYoa/jNJy93GvY82Ka2Rk8oV5\n' +
+299 silly install resolved         'qPzKQCYqwIaOE0uc9ABb2gQGDvZShFDYtmHqDcsyss7eq23xbJyYM8LMZVgy\n' +
+299 silly install resolved         'DreGUzJQOMmd03gwoF8djwiWF8NXGZ8km37JbPaW4oIDkhgFB5YJu8jupUMj\n' +
+299 silly install resolved         'y0xMW2R2tpsrITu96OBWLPuY49rvqBKsH5mGokrsXGZ/J3o1JvNEfHauG3jz\n' +
+299 silly install resolved         'OlUhRD52hAN3aLyJeaOqXIvpbW/7YpStHYVWmfKv/b/ITa0hjSSIpZsaznSu\n' +
+299 silly install resolved         'GB/fwueHA3zhCoP55mKbn/tgimhOrA0Uo1dG431LOP9uCAnJzY+df1pBKYGl\n' +
+299 silly install resolved         'TvVQM5loC7GYutgOZsTuZHNcwTf8YHdm/MazIhVMT76nw/dD59iynAha069G\n' +
+299 silly install resolved         '9VOK8K0JUsQQwtOcfnd67qraZQeNkfwnS3ifUzMYeHoCESvPBcsAlmJpnnSs\n' +
+299 silly install resolved         'Zn+o\r\n' +
+299 silly install resolved         '=klC1\r\n' +
+299 silly install resolved         '-----END PGP SIGNATURE-----\r\n',
+299 silly install resolved       signatures: [Array]
+299 silly install resolved     },
+299 silly install resolved     _npmUser: { name: 'pipobscure', email: 'pip@pipobscure.com' },
+299 silly install resolved     directories: {},
+299 silly install resolved     maintainers: [ [Object], [Object] ],
+299 silly install resolved     _npmOperationalInternal: {
+299 silly install resolved       host: 's3://npm-registry-packages',
+299 silly install resolved       tmp: 'tmp/fsevents_2.3.2_1612536393763_0.6823972486617933'
+299 silly install resolved     },
+299 silly install resolved     _hasShrinkwrap: false,
+299 silly install resolved     _shasum: '8a526f78b8fdf4623b709e0b975c52c24c02fd1a',
+299 silly install resolved     _resolved: 'https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz',
+299 silly install resolved     _from: 'fsevents@2.3.2',
+299 silly install resolved     readme: 'ERROR: No README data found!'
+299 silly install resolved   },
+299 silly install resolved   {
+299 silly install resolved     name: 'playwright-core',
+299 silly install resolved     version: '1.39.0',
+299 silly install resolved     description: 'A high-level API to automate web browsers',
+299 silly install resolved     repository: {
+299 silly install resolved       type: 'git',
+299 silly install resolved       url: 'git+https://github.com/microsoft/playwright.git'
+299 silly install resolved     },
+299 silly install resolved     homepage: 'https://playwright.dev',
+299 silly install resolved     engines: { node: '>=16' },
+299 silly install resolved     author: { name: 'Microsoft Corporation' },
+299 silly install resolved     license: 'Apache-2.0',
+299 silly install resolved     exports: {
+299 silly install resolved       '.': [Object],
+299 silly install resolved       './package.json': './package.json',
+299 silly install resolved       './lib/outofprocess': './lib/outofprocess.js',
+299 silly install resolved       './lib/image_tools/stats': './lib/image_tools/stats.js',
+299 silly install resolved       './lib/image_tools/compare': './lib/image_tools/compare.js',
+299 silly install resolved       './lib/image_tools/imageChannel': './lib/image_tools/imageChannel.js',
+299 silly install resolved       './lib/image_tools/colorUtils': './lib/image_tools/colorUtils.js',
+299 silly install resolved       './lib/cli/cli': './lib/cli/cli.js',
+299 silly install resolved       './lib/cli/program': './lib/cli/program.js',
+299 silly install resolved       './lib/server/registry/index': './lib/server/registry/index.js',
+299 silly install resolved       './lib/remote/playwrightServer': './lib/remote/playwrightServer.js',
+299 silly install resolved       './lib/server': './lib/server/index.js',
+299 silly install resolved       './lib/utils': './lib/utils/index.js',
+299 silly install resolved       './lib/utilsBundle': './lib/utilsBundle.js',
+299 silly install resolved       './lib/zipBundle': './lib/zipBundle.js',
+299 silly install resolved       './types/protocol': './types/protocol.d.ts',
+299 silly install resolved       './types/structs': './types/structs.d.ts'
+299 silly install resolved     },
+299 silly install resolved     bin: { 'playwright-core': 'cli.js' },
+299 silly install resolved     types: 'types/types.d.ts',
+299 silly install resolved     _id: 'playwright-core@1.39.0',
+299 silly install resolved     gitHead: '3049d99bc8c76799817585a359502368bd6ba366',
+299 silly install resolved     bugs: { url: 'https://github.com/microsoft/playwright/issues' },
+299 silly install resolved     _nodeVersion: '18.18.0',
+299 silly install resolved     _npmVersion: '9.8.1',
+299 silly install resolved     dist: {
+299 silly install resolved       integrity: 'sha512-+k4pdZgs1qiM+OUkSjx96YiKsXsmb59evFoqv8SKO067qBA+Z2s/dCzJij/ZhdQcs2zlTAgRKfeiiLm8PQ2qvw==',
+299 silly install resolved       shasum: 'efeaea754af4fb170d11845b8da30b2323287c63',
+299 silly install resolved       tarball: 'https://registry.npmjs.org/playwright-core/-/playwright-core-1.39.0.tgz',
+299 silly install resolved       fileCount: 293,
+299 silly install resolved       unpackedSize: 7138717,
+299 silly install resolved       attestations: [Object],
+299 silly install resolved       signatures: [Array]
+299 silly install resolved     },
+299 silly install resolved     _npmUser: { name: 'aslushnikov', email: 'aslushnikov@gmail.com' },
+299 silly install resolved     directories: {},
+299 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+299 silly install resolved     _npmOperationalInternal: {
+299 silly install resolved       host: 's3://npm-registry-packages',
+299 silly install resolved       tmp: 'tmp/playwright-core_1.39.0_1697062473504_0.5173383803126375'
+299 silly install resolved     },
+299 silly install resolved     _hasShrinkwrap: false,
+299 silly install resolved     _shasum: 'efeaea754af4fb170d11845b8da30b2323287c63',
+299 silly install resolved     _resolved: 'https://registry.npmjs.org/playwright-core/-/playwright-core-1.39.0.tgz',
+299 silly install resolved     _from: 'playwright-core@1.39.0'
+299 silly install resolved   }
+299 silly install resolved ]
+300 info install fsevents@2.3.2 into /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright
+301 info install playwright-core@1.39.0 into /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright
+302 info installOne fsevents@2.3.2
+303 verbose installOne of fsevents to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright not in flight; installing
+304 verbose correctMkdir /Users/kastriotblakaj/.npm/_locks correctMkdir not in flight; initializing
+305 info installOne playwright-core@1.39.0
+306 verbose installOne of playwright-core to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright not in flight; installing
+307 verbose correctMkdir /Users/kastriotblakaj/.npm/_locks correctMkdir not in flight; initializing
+308 verbose lock using /Users/kastriotblakaj/.npm/_locks/fsevents-0e034766ce46adef.lock for /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+309 silly install write writing fsevents 2.3.2 to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+310 verbose lock using /Users/kastriotblakaj/.npm/_locks/playwright-core-a027af2a5c7f0192.lock for /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core
+311 silly install write writing playwright-core 1.39.0 to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core
+312 verbose unbuild node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+313 verbose unbuild node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core
+314 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents is being purged from base /Users/kastriotblakaj/Desktop/Playwright
+315 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+316 verbose tar unpack /Users/kastriotblakaj/.npm/fsevents/2.3.2/package.tgz
+317 verbose tar unpacking to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+318 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents is being purged
+319 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+320 silly gunzTarPerm modes [ '755', '644' ]
+321 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core is being purged from base /Users/kastriotblakaj/Desktop/Playwright
+322 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core
+323 verbose tar unpack /Users/kastriotblakaj/.npm/playwright-core/1.39.0/package.tgz
+324 verbose tar unpacking to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core
+325 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core is being purged
+326 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core
+327 silly gunzTarPerm modes [ '755', '644' ]
+328 silly gunzTarPerm extractEntry LICENSE
+329 silly gunzTarPerm extractEntry LICENSE
+330 silly gunzTarPerm extractEntry fsevents.js
+331 silly gunzTarPerm extractEntry package.json
+332 silly gunzTarPerm extractEntry NOTICE
+333 silly gunzTarPerm extractEntry lib/utilsBundleImpl/xdg-open
+334 silly gunzTarPerm extractEntry README.md
+335 silly gunzTarPerm extractEntry fsevents.node
+336 silly gunzTarPerm extractEntry lib/vite/recorder/assets/codeMirrorModule-5d0f417c.css
+337 silly gunzTarPerm extractEntry fsevents.d.ts
+338 silly gunzTarPerm extractEntry lib/vite/traceViewer/codeMirrorModule.5d0f417c.css
+339 silly gunzTarPerm extractEntry lib/vite/recorder/assets/index-1a2a86f2.css
+340 silly gunzTarPerm extractEntry lib/vite/traceViewer/index.a60f70ab.css
+341 silly gunzTarPerm extractEntry lib/vite/traceViewer/uiMode.41e90341.css
+342 silly gunzTarPerm extractEntry lib/vite/traceViewer/wsPort.e04018c0.css
+343 silly gunzTarPerm extractEntry lib/vite/traceViewer/xtermModule.6428296b.css
+344 silly gunzTarPerm extractEntry bin/PrintDeps.exe
+345 verbose write writing to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents/package.json
+346 info preinstall fsevents@2.3.2
+347 verbose readDependencies loading dependencies from /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents/package.json
+348 silly gunzTarPerm extractEntry lib/vite/htmlReport/index.html
+349 verbose readDependencies loading dependencies from /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents/package.json
+350 silly install resolved []
+351 verbose about to build /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+352 info build /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+353 info linkStuff fsevents@2.3.2
+354 silly linkStuff fsevents@2.3.2 has /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules as its parent node_modules
+355 verbose linkBins fsevents@2.3.2
+356 verbose linkMans fsevents@2.3.2
+357 verbose rebuildBundles fsevents@2.3.2
+358 info install fsevents@2.3.2
+359 verbose unsafe-perm in lifecycle true
+360 silly gunzTarPerm extractEntry lib/vite/recorder/index.html
+361 silly gunzTarPerm extractEntry lib/vite/traceViewer/index.html
+362 silly gunzTarPerm extractEntry lib/vite/traceViewer/snapshot.html
+363 silly gunzTarPerm extractEntry lib/vite/traceViewer/uiMode.html
+364 silly gunzTarPerm extractEntry lib/client/accessibility.js
+365 silly gunzTarPerm extractEntry lib/server/accessibility.js
+366 silly gunzTarPerm extractEntry lib/client/android.js
+367 silly gunzTarPerm extractEntry lib/server/android/android.js
+368 silly gunzTarPerm extractEntry lib/server/dispatchers/androidDispatcher.js
+369 silly gunzTarPerm extractEntry lib/androidServerImpl.js
+370 silly gunzTarPerm extractEntry lib/client/api.js
+371 silly gunzTarPerm extractEntry lib/client/artifact.js
+372 silly gunzTarPerm extractEntry lib/server/artifact.js
+373 silly gunzTarPerm extractEntry lib/server/dispatchers/artifactDispatcher.js
+374 silly gunzTarPerm extractEntry lib/utils/ascii.js
+375 silly gunzTarPerm extractEntry lib/server/android/backendAdb.js
+376 silly gunzTarPerm extractEntry lib/client/browser.js
+377 silly gunzTarPerm extractEntry lib/server/browser.js
+378 silly gunzTarPerm extractEntry lib/client/browserContext.js
+379 silly gunzTarPerm extractEntry lib/server/browserContext.js
+380 silly gunzTarPerm extractEntry lib/server/dispatchers/browserContextDispatcher.js
+381 silly gunzTarPerm extractEntry lib/server/dispatchers/browserDispatcher.js
+382 silly gunzTarPerm extractEntry lib/server/registry/browserFetcher.js
+383 silly gunzTarPerm extractEntry lib/browserServerImpl.js
+384 silly gunzTarPerm extractEntry lib/client/browserType.js
+385 silly gunzTarPerm extractEntry lib/server/browserType.js
+386 silly gunzTarPerm extractEntry lib/server/dispatchers/browserTypeDispatcher.js
+387 silly gunzTarPerm extractEntry lib/client/cdpSession.js
+388 silly gunzTarPerm extractEntry lib/server/dispatchers/cdpSessionDispatcher.js
+389 silly gunzTarPerm extractEntry lib/client/channelOwner.js
+390 silly gunzTarPerm extractEntry lib/server/chromium/chromium.js
+391 silly gunzTarPerm extractEntry lib/server/chromium/chromiumSwitches.js
+392 silly gunzTarPerm extractEntry cli.js
+393 silly gunzTarPerm extractEntry lib/cli/cli.js
+394 silly gunzTarPerm extractEntry lib/client/clientHelper.js
+395 silly gunzTarPerm extractEntry lib/client/clientInstrumentation.js
+396 silly gunzTarPerm extractEntry lib/server/recorder/codeGenerator.js
+397 silly gunzTarPerm extractEntry lib/vite/traceViewer/assets/codeMirrorModule-316e0bb2.js
+398 silly gunzTarPerm extractEntry lib/vite/recorder/assets/codeMirrorModule-fc5dd28a.js
+399 silly gunzTarPerm extractEntry lib/image_tools/colorUtils.js
+400 silly gunzTarPerm extractEntry lib/utils/comparators.js
+401 silly gunzTarPerm extractEntry lib/image_tools/compare.js
+402 silly gunzTarPerm extractEntry lib/client/connection.js
+403 silly gunzTarPerm extractEntry lib/server/console.js
+404 silly gunzTarPerm extractEntry lib/generated/consoleApiSource.js
+405 silly gunzTarPerm extractEntry lib/client/consoleMessage.js
+406 silly gunzTarPerm extractEntry lib/server/cookieStore.js
+407 silly gunzTarPerm extractEntry lib/client/coverage.js
+408 silly gunzTarPerm extractEntry lib/server/chromium/crAccessibility.js
+409 silly gunzTarPerm extractEntry lib/server/chromium/crBrowser.js
+410 silly gunzTarPerm extractEntry lib/server/chromium/crConnection.js
+411 silly gunzTarPerm extractEntry lib/server/chromium/crCoverage.js
+412 silly gunzTarPerm extractEntry lib/server/chromium/crDevTools.js
+413 silly gunzTarPerm extractEntry lib/server/chromium/crDragDrop.js
+414 silly gunzTarPerm extractEntry lib/server/chromium/crExecutionContext.js
+415 silly gunzTarPerm extractEntry lib/server/chromium/crInput.js
+416 silly gunzTarPerm extractEntry lib/server/chromium/crNetworkManager.js
+417 silly gunzTarPerm extractEntry lib/server/chromium/crPage.js
+418 silly gunzTarPerm extractEntry lib/server/chromium/crPdf.js
+419 silly gunzTarPerm extractEntry lib/server/chromium/crProtocolHelper.js
+420 silly gunzTarPerm extractEntry lib/server/chromium/crServiceWorker.js
+421 silly gunzTarPerm extractEntry lib/utils/crypto.js
+422 silly gunzTarPerm extractEntry lib/server/recorder/csharp.js
+423 silly gunzTarPerm extractEntry lib/utils/isomorphic/cssParser.js
+424 silly gunzTarPerm extractEntry lib/utils/isomorphic/cssTokenizer.js
+425 silly gunzTarPerm extractEntry lib/protocol/debug.js
+426 silly gunzTarPerm extractEntry lib/utils/debug.js
+427 silly gunzTarPerm extractEntry lib/server/debugController.js
+428 silly gunzTarPerm extractEntry lib/server/dispatchers/debugControllerDispatcher.js
+429 silly gunzTarPerm extractEntry lib/server/debugger.js
+430 silly gunzTarPerm extractEntry lib/common/debugLogger.js
+431 silly gunzTarPerm extractEntry lib/server/chromium/defaultFontFamilies.js
+432 silly gunzTarPerm extractEntry lib/server/registry/dependencies.js
+433 silly gunzTarPerm extractEntry lib/server/deviceDescriptors.js
+434 silly gunzTarPerm extractEntry lib/client/dialog.js
+435 silly gunzTarPerm extractEntry lib/server/dialog.js
+436 silly gunzTarPerm extractEntry lib/server/dispatchers/dialogDispatcher.js
+437 silly gunzTarPerm extractEntry lib/third_party/diff_match_patch.js
+438 silly gunzTarPerm extractEntry lib/server/dispatchers/dispatcher.js
+439 silly gunzTarPerm extractEntry lib/server/dom.js
+440 silly gunzTarPerm extractEntry lib/client/download.js
+441 silly gunzTarPerm extractEntry lib/server/download.js
+442 silly gunzTarPerm extractEntry lib/cli/driver.js
+443 silly gunzTarPerm extractEntry lib/client/electron.js
+444 silly gunzTarPerm extractEntry lib/server/electron/electron.js
+445 silly gunzTarPerm extractEntry lib/server/dispatchers/electronDispatcher.js
+446 silly gunzTarPerm extractEntry lib/client/elementHandle.js
+447 silly gunzTarPerm extractEntry lib/server/dispatchers/elementHandlerDispatcher.js
+448 silly gunzTarPerm extractEntry lib/utils/env.js
+449 silly gunzTarPerm extractEntry lib/common/errors.js
+450 silly gunzTarPerm extractEntry lib/client/events.js
+451 silly gunzTarPerm extractEntry lib/utils/eventsHelper.js
+452 silly gunzTarPerm extractEntry lib/client/fetch.js
+453 silly gunzTarPerm extractEntry lib/server/fetch.js
+454 silly gunzTarPerm extractEntry lib/server/firefox/ffAccessibility.js
+455 silly gunzTarPerm extractEntry lib/server/firefox/ffBrowser.js
+456 silly gunzTarPerm extractEntry lib/server/firefox/ffConnection.js
+457 silly gunzTarPerm extractEntry lib/server/firefox/ffExecutionContext.js
+458 silly gunzTarPerm extractEntry lib/server/firefox/ffInput.js
+459 silly gunzTarPerm extractEntry lib/server/firefox/ffNetworkManager.js
+460 silly gunzTarPerm extractEntry lib/server/firefox/ffPage.js
+461 silly gunzTarPerm extractEntry lib/client/fileChooser.js
+462 silly gunzTarPerm extractEntry lib/server/fileChooser.js
+463 silly gunzTarPerm extractEntry lib/utils/fileUtils.js
+464 silly gunzTarPerm extractEntry lib/server/firefox/firefox.js
+465 silly gunzTarPerm extractEntry lib/server/formData.js
+466 silly gunzTarPerm extractEntry lib/client/frame.js
+467 silly gunzTarPerm extractEntry lib/server/dispatchers/frameDispatcher.js
+468 silly gunzTarPerm extractEntry lib/server/frames.js
+469 silly gunzTarPerm extractEntry lib/server/frameSelectors.js
+470 silly gunzTarPerm extractEntry lib/utils/glob.js
+471 silly gunzTarPerm extractEntry lib/utils/happy-eyeballs.js
+472 silly gunzTarPerm extractEntry lib/server/har/harRecorder.js
+473 silly gunzTarPerm extractEntry lib/client/harRouter.js
+474 silly gunzTarPerm extractEntry lib/server/har/harTracer.js
+475 silly gunzTarPerm extractEntry lib/utils/headers.js
+476 silly gunzTarPerm extractEntry lib/server/helper.js
+477 silly gunzTarPerm extractEntry lib/utils/hostPlatform.js
+478 silly gunzTarPerm extractEntry lib/utils/httpServer.js
+479 silly gunzTarPerm extractEntry lib/image_tools/imageChannel.js
+480 silly gunzTarPerm extractEntry lib/vite/recorder/assets/index-20be4b04.js
+481 silly gunzTarPerm extractEntry lib/vite/traceViewer/index.38834ec3.js
+482 silly gunzTarPerm extractEntry index.js
+483 silly gunzTarPerm extractEntry lib/server/index.js
+484 silly gunzTarPerm extractEntry lib/server/registry/index.js
+485 silly gunzTarPerm extractEntry lib/utils/index.js
+486 silly gunzTarPerm extractEntry lib/utilsBundleImpl/index.js
+487 silly gunzTarPerm extractEntry lib/generated/injectedScriptSource.js
+488 silly gunzTarPerm extractEntry lib/server/trace/test/inMemorySnapshotter.js
+489 silly gunzTarPerm extractEntry lib/inprocess.js
+490 silly gunzTarPerm extractEntry lib/inProcessFactory.js
+491 silly gunzTarPerm extractEntry lib/client/input.js
+492 silly gunzTarPerm extractEntry lib/server/input.js
+493 silly gunzTarPerm extractEntry lib/server/instrumentation.js
+494 silly gunzTarPerm extractEntry lib/server/recorder/java.js
+495 silly gunzTarPerm extractEntry lib/server/javascript.js
+496 silly gunzTarPerm extractEntry lib/server/recorder/javascript.js
+497 silly gunzTarPerm extractEntry lib/client/jsHandle.js
+498 silly gunzTarPerm extractEntry lib/server/dispatchers/jsHandleDispatcher.js
+499 silly gunzTarPerm extractEntry lib/server/recorder/jsonl.js
+500 silly gunzTarPerm extractEntry lib/client/jsonPipe.js
+501 silly gunzTarPerm extractEntry lib/server/dispatchers/jsonPipeDispatcher.js
+502 silly gunzTarPerm extractEntry lib/server/recorder/language.js
+503 silly gunzTarPerm extractEntry lib/server/launchApp.js
+504 silly gunzTarPerm extractEntry lib/utils/linuxUtils.js
+505 silly gunzTarPerm extractEntry lib/server/electron/loader.js
+506 silly gunzTarPerm extractEntry lib/client/localUtils.js
+507 silly gunzTarPerm extractEntry lib/server/dispatchers/localUtilsDispatcher.js
+508 silly gunzTarPerm extractEntry lib/client/locator.js
+509 silly gunzTarPerm extractEntry lib/utils/isomorphic/locatorGenerators.js
+510 silly gunzTarPerm extractEntry lib/utils/isomorphic/locatorParser.js
+511 silly gunzTarPerm extractEntry lib/utils/isomorphic/locatorUtils.js
+512 silly gunzTarPerm extractEntry lib/server/macEditingCommands.js
+513 silly gunzTarPerm extractEntry lib/utils/manualPromise.js
+514 silly gunzTarPerm extractEntry lib/utils/mimeType.js
+515 silly gunzTarPerm extractEntry lib/utils/multimap.js
+516 silly gunzTarPerm extractEntry lib/server/registry/nativeDeps.js
+517 silly gunzTarPerm extractEntry lib/client/network.js
+518 silly gunzTarPerm extractEntry lib/server/network.js
+519 silly gunzTarPerm extractEntry lib/utils/network.js
+520 silly gunzTarPerm extractEntry lib/server/dispatchers/networkDispatchers.js
+521 silly gunzTarPerm extractEntry lib/server/registry/oopDownloadBrowserMain.js
+522 silly gunzTarPerm extractEntry lib/outofprocess.js
+523 silly gunzTarPerm extractEntry lib/client/page.js
+524 silly gunzTarPerm extractEntry lib/server/page.js
+525 silly gunzTarPerm extractEntry lib/server/dispatchers/pageDispatcher.js
+526 silly gunzTarPerm extractEntry lib/server/pipeTransport.js
+527 silly gunzTarPerm extractEntry lib/third_party/pixelmatch.js
+528 silly gunzTarPerm extractEntry lib/client/playwright.js
+529 silly gunzTarPerm extractEntry lib/server/playwright.js
+530 silly gunzTarPerm extractEntry lib/remote/playwrightConnection.js
+531 silly gunzTarPerm extractEntry lib/server/dispatchers/playwrightDispatcher.js
+532 silly gunzTarPerm extractEntry lib/remote/playwrightServer.js
+533 silly gunzTarPerm extractEntry lib/utils/processLauncher.js
+534 silly gunzTarPerm extractEntry lib/utils/profiler.js
+535 silly gunzTarPerm extractEntry lib/cli/program.js
+536 silly gunzTarPerm extractEntry lib/server/progress.js
+537 silly gunzTarPerm extractEntry lib/server/protocolError.js
+538 silly gunzTarPerm extractEntry lib/server/recorder/python.js
+539 silly gunzTarPerm extractEntry lib/server/recorder.js
+540 silly gunzTarPerm extractEntry lib/server/recorder/recorderActions.js
+541 silly gunzTarPerm extractEntry lib/server/recorder/recorderApp.js
+542 silly gunzTarPerm extractEntry lib/generated/recorderSource.js
+543 silly gunzTarPerm extractEntry lib/server/recorder/recorderUtils.js
+544 silly gunzTarPerm extractEntry lib/utils/rtti.js
+545 silly gunzTarPerm extractEntry lib/server/screenshotter.js
+546 silly gunzTarPerm extractEntry lib/utils/isomorphic/selectorParser.js
+547 silly gunzTarPerm extractEntry lib/client/selectors.js
+548 silly gunzTarPerm extractEntry lib/server/selectors.js
+549 silly gunzTarPerm extractEntry lib/server/dispatchers/selectorsDispatcher.js
+550 silly gunzTarPerm extractEntry lib/protocol/serializers.js
+551 silly gunzTarPerm extractEntry lib/server/trace/recorder/snapshotter.js
+552 silly gunzTarPerm extractEntry lib/server/trace/recorder/snapshotterInjected.js
+553 silly gunzTarPerm extractEntry lib/server/socksInterceptor.js
+554 silly gunzTarPerm extractEntry lib/common/socksProxy.js
+555 silly gunzTarPerm extractEntry lib/utils/spawnAsync.js
+556 silly gunzTarPerm extractEntry lib/utils/stackTrace.js
+557 silly gunzTarPerm extractEntry lib/image_tools/stats.js
+558 silly gunzTarPerm extractEntry lib/client/stream.js
+559 silly gunzTarPerm extractEntry lib/server/dispatchers/streamDispatcher.js
+560 silly gunzTarPerm extractEntry lib/utils/isomorphic/stringUtils.js
+561 silly gunzTarPerm extractEntry lib/vite/traceViewer/sw.bundle.js
+562 silly gunzTarPerm extractEntry lib/utils/task.js
+563 silly gunzTarPerm extractEntry lib/utils/time.js
+564 silly gunzTarPerm extractEntry lib/utils/timeoutRunner.js
+565 silly gunzTarPerm extractEntry lib/common/timeoutSettings.js
+566 silly gunzTarPerm extractEntry lib/utils/isomorphic/traceUtils.js
+567 silly gunzTarPerm extractEntry lib/utils/traceUtils.js
+568 silly gunzTarPerm extractEntry lib/server/trace/viewer/traceViewer.js
+569 silly gunzTarPerm extractEntry lib/client/tracing.js
+570 silly gunzTarPerm extractEntry lib/server/trace/recorder/tracing.js
+571 silly gunzTarPerm extractEntry lib/server/dispatchers/tracingDispatcher.js
+572 silly gunzTarPerm extractEntry lib/protocol/transport.js
+573 silly gunzTarPerm extractEntry lib/server/transport.js
+574 silly gunzTarPerm extractEntry lib/client/types.js
+575 silly gunzTarPerm extractEntry lib/common/types.js
+576 silly gunzTarPerm extractEntry lib/server/types.js
+577 silly gunzTarPerm extractEntry lib/vite/traceViewer/uiMode.ec1bb33b.js
+578 silly gunzTarPerm extractEntry lib/utils/userAgent.js
+579 silly gunzTarPerm extractEntry lib/server/usKeyboardLayout.js
+580 silly gunzTarPerm extractEntry lib/server/isomorphic/utilityScriptSerializers.js
+581 silly gunzTarPerm extractEntry lib/generated/utilityScriptSource.js
+582 silly gunzTarPerm extractEntry lib/server/recorder/utils.js
+583 silly gunzTarPerm extractEntry lib/utilsBundle.js
+584 silly gunzTarPerm extractEntry lib/protocol/validator.js
+585 silly gunzTarPerm extractEntry lib/protocol/validatorPrimitives.js
+586 silly gunzTarPerm extractEntry lib/client/video.js
+587 silly gunzTarPerm extractEntry lib/server/chromium/videoRecorder.js
+588 silly gunzTarPerm extractEntry lib/client/waiter.js
+589 silly gunzTarPerm extractEntry lib/client/webError.js
+590 silly gunzTarPerm extractEntry lib/server/webkit/webkit.js
+591 silly gunzTarPerm extractEntry lib/server/webkit/wkAccessibility.js
+592 silly gunzTarPerm extractEntry lib/server/webkit/wkBrowser.js
+593 silly gunzTarPerm extractEntry lib/server/webkit/wkConnection.js
+594 silly gunzTarPerm extractEntry lib/server/webkit/wkExecutionContext.js
+595 silly gunzTarPerm extractEntry lib/server/webkit/wkInput.js
+596 silly gunzTarPerm extractEntry lib/server/webkit/wkInterceptableRequest.js
+597 silly gunzTarPerm extractEntry lib/server/webkit/wkPage.js
+598 silly gunzTarPerm extractEntry lib/server/webkit/wkProvisionalPage.js
+599 silly gunzTarPerm extractEntry lib/server/webkit/wkWorkers.js
+600 silly gunzTarPerm extractEntry lib/client/worker.js
+601 silly gunzTarPerm extractEntry lib/client/writableStream.js
+602 silly gunzTarPerm extractEntry lib/server/dispatchers/writableStreamDispatcher.js
+603 silly gunzTarPerm extractEntry lib/vite/traceViewer/assets/wsPort-0625ac95.js
+604 silly gunzTarPerm extractEntry lib/vite/traceViewer/assets/xtermModule-443332e6.js
+605 silly gunzTarPerm extractEntry lib/zipBundle.js
+606 silly gunzTarPerm extractEntry lib/zipBundleImpl.js
+607 silly gunzTarPerm extractEntry lib/utils/zipFile.js
+608 silly gunzTarPerm extractEntry lib/utils/zones.js
+609 silly gunzTarPerm extractEntry browsers.json
+610 silly gunzTarPerm extractEntry lib/server/deviceDescriptorsSource.json
+611 silly gunzTarPerm extractEntry package.json
+612 silly gunzTarPerm extractEntry bin/README.md
+613 silly gunzTarPerm extractEntry README.md
+614 silly gunzTarPerm extractEntry index.mjs
+615 silly gunzTarPerm extractEntry lib/server/chromium/appIcon.png
+616 silly gunzTarPerm extractEntry bin/install_media_pack.ps1
+617 silly gunzTarPerm extractEntry bin/reinstall_chrome_beta_win.ps1
+618 silly gunzTarPerm extractEntry bin/reinstall_chrome_stable_win.ps1
+619 silly gunzTarPerm extractEntry bin/reinstall_msedge_beta_win.ps1
+620 silly gunzTarPerm extractEntry bin/reinstall_msedge_dev_win.ps1
+621 silly gunzTarPerm extractEntry bin/reinstall_msedge_stable_win.ps1
+622 silly gunzTarPerm extractEntry bin/reinstall_chrome_beta_linux.sh
+623 silly gunzTarPerm extractEntry bin/reinstall_chrome_beta_mac.sh
+624 silly gunzTarPerm extractEntry bin/reinstall_chrome_stable_linux.sh
+625 silly gunzTarPerm extractEntry bin/reinstall_chrome_stable_mac.sh
+626 silly gunzTarPerm extractEntry bin/reinstall_msedge_beta_linux.sh
+627 silly gunzTarPerm extractEntry bin/reinstall_msedge_beta_mac.sh
+628 silly gunzTarPerm extractEntry bin/reinstall_msedge_dev_linux.sh
+629 silly gunzTarPerm extractEntry bin/reinstall_msedge_dev_mac.sh
+630 silly gunzTarPerm extractEntry bin/reinstall_msedge_stable_linux.sh
+631 silly gunzTarPerm extractEntry bin/reinstall_msedge_stable_mac.sh
+632 silly gunzTarPerm extractEntry lib/vite/recorder/playwright-logo.svg
+633 silly gunzTarPerm extractEntry lib/vite/traceViewer/playwright-logo.svg
+634 silly gunzTarPerm extractEntry index.d.ts
+635 silly gunzTarPerm extractEntry types/protocol.d.ts
+636 silly gunzTarPerm extractEntry types/structs.d.ts
+637 silly gunzTarPerm extractEntry types/types.d.ts
+638 silly gunzTarPerm extractEntry lib/vite/recorder/assets/codicon-79f233d0.ttf
+639 silly gunzTarPerm extractEntry lib/vite/traceViewer/codicon.79f233d0.ttf
+640 silly gunzTarPerm extractEntry ThirdPartyNotices.txt
+641 verbose write writing to /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core/package.json
+642 info preinstall playwright-core@1.39.0
+643 verbose readDependencies loading dependencies from /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core/package.json
+644 verbose readDependencies loading dependencies from /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core/package.json
+645 silly install resolved []
+646 verbose about to build /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core
+647 info build /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core
+648 info linkStuff playwright-core@1.39.0
+649 silly linkStuff playwright-core@1.39.0 has /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules as its parent node_modules
+650 verbose linkBins playwright-core@1.39.0
+651 verbose link bins [
+651 verbose link bins   { 'playwright-core': 'cli.js' },
+651 verbose link bins   '/Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/.bin',
+651 verbose link bins   false
+651 verbose link bins ]
+652 verbose linkMans playwright-core@1.39.0
+653 verbose rebuildBundles playwright-core@1.39.0
+654 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/.bin/playwright-core is being purged
+655 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/.bin/playwright-core
+656 info install playwright-core@1.39.0
+657 info postinstall playwright-core@1.39.0
+658 verbose unlock done using /Users/kastriotblakaj/.npm/_locks/playwright-core-a027af2a5c7f0192.lock for /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/playwright-core
+659 info fsevents@2.3.2 Failed to exec install script
+660 verbose unlock done using /Users/kastriotblakaj/.npm/_locks/fsevents-0e034766ce46adef.lock for /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+661 warn optional dep failed, continuing fsevents@2.3.2
+662 verbose optional dep failed, continuing [
+662 verbose optional dep failed, continuing   'fsevents@2.3.2',
+662 verbose optional dep failed, continuing   Error: fsevents@2.3.2 install: `node-gyp rebuild`
+662 verbose optional dep failed, continuing   Exit status 1
+662 verbose optional dep failed, continuing       at EventEmitter.<anonymous> (/Users/kastriotblakaj/node_modules/npm/lib/utils/lifecycle.js:217:16)
+662 verbose optional dep failed, continuing       at EventEmitter.emit (node:events:514:28)
+662 verbose optional dep failed, continuing       at ChildProcess.<anonymous> (/Users/kastriotblakaj/node_modules/npm/lib/utils/spawn.js:24:14)
+662 verbose optional dep failed, continuing       at ChildProcess.emit (node:events:514:28)
+662 verbose optional dep failed, continuing       at maybeClose (node:internal/child_process:1091:16)
+662 verbose optional dep failed, continuing       at ChildProcess._handle.onexit (node:internal/child_process:302:5) {
+662 verbose optional dep failed, continuing     code: 'ELIFECYCLE',
+662 verbose optional dep failed, continuing     pkgid: 'fsevents@2.3.2',
+662 verbose optional dep failed, continuing     stage: 'install',
+662 verbose optional dep failed, continuing     script: 'node-gyp rebuild',
+662 verbose optional dep failed, continuing     pkgname: 'fsevents'
+662 verbose optional dep failed, continuing   }
+662 verbose optional dep failed, continuing ]
+663 verbose about to build /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright
+664 info build /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright
+665 info linkStuff playwright@1.39.0
+666 silly linkStuff playwright@1.39.0 has /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules as its parent node_modules
+667 verbose linkBins playwright@1.39.0
+668 verbose link bins [
+668 verbose link bins   { playwright: 'cli.js' },
+668 verbose link bins   '/Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/.bin',
+668 verbose link bins   false
+668 verbose link bins ]
+669 verbose linkMans playwright@1.39.0
+670 verbose rebuildBundles playwright@1.39.0
+671 verbose rebuildBundles [ '.bin', 'fsevents', 'playwright-core' ]
+672 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/.bin/playwright is being purged
+673 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/.bin/playwright
+674 info install playwright@1.39.0
+675 info postinstall playwright@1.39.0
+676 verbose unlock done using /Users/kastriotblakaj/.npm/_locks/playwright-620903a97eeff8d5.lock for /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright
+677 verbose about to build /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test
+678 info build /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test
+679 info linkStuff @playwright/test@1.39.0
+680 silly linkStuff @playwright/test@1.39.0 has /Users/kastriotblakaj/Desktop/Playwright/node_modules as its parent node_modules
+681 verbose linkBins @playwright/test@1.39.0
+682 verbose link bins [
+682 verbose link bins   { playwright: 'cli.js' },
+682 verbose link bins   '/Users/kastriotblakaj/Desktop/Playwright/node_modules/.bin',
+682 verbose link bins   false
+682 verbose link bins ]
+683 verbose linkMans @playwright/test@1.39.0
+684 verbose rebuildBundles @playwright/test@1.39.0
+685 verbose rebuildBundles [ '.bin', 'playwright' ]
+686 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/.bin/playwright is being purged
+687 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/.bin/playwright
+688 info install @playwright/test@1.39.0
+689 info postinstall @playwright/test@1.39.0
+690 verbose unlock done using /Users/kastriotblakaj/.npm/_locks/playwright-test-fd4cd84bb3d99d72.lock for /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test
+691 verbose validateInstall loading /Users/kastriotblakaj/Desktop/Playwright/package.json for validation
+692 verbose stack TypeError: cb.apply is not a function
+692 verbose stack     at /Users/kastriotblakaj/node_modules/npm/node_modules/graceful-fs/polyfills.js:285:20
+692 verbose stack     at FSReqCallback.oncomplete (node:fs:211:5)
+693 verbose cwd /Users/kastriotblakaj/Desktop/Playwright
+694 error Darwin 22.2.0
+695 error argv "/Users/kastriotblakaj/.nvm/versions/node/v18.17.0/bin/node" "/Users/kastriotblakaj/node_modules/.bin/npm" "install" "--save-dev" "@playwright/test"
+696 error node v18.17.0
+697 error npm  v2.15.12
+698 error cb.apply is not a function
+699 error If you need help, you may report this error at:
+699 error     <https://github.com/npm/npm/issues>
+700 verbose exit [ 1, true ]
+701 verbose unbuild node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+702 info preuninstall fsevents@2.3.2
+703 info uninstall fsevents@2.3.2
+704 verbose unbuild rmStuff fsevents@2.3.2 from /Users/kastriotblakaj/Desktop/Playwright/node_modules
+705 verbose unbuild rmStuff in /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules
+706 info postuninstall fsevents@2.3.2
+707 silly gentlyRm /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents is being purged from base /Users/kastriotblakaj/Desktop/Playwright
+708 verbose gentlyRm don't care about contents; nuking /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+709 silly vacuum-fs purging /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules/fsevents
+710 silly vacuum-fs quitting because other entries in /Users/kastriotblakaj/Desktop/Playwright/node_modules/@playwright/test/node_modules/playwright/node_modules
