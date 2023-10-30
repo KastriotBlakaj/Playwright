@@ -1,0 +1,7 @@
+{
+    "email":"standard_user",
+    "password": "secret_sauce",
+    "checkoutEmail":"test",
+    "checkoutLastName":"lastname",
+    "checkoutZip":"1234"
+}
