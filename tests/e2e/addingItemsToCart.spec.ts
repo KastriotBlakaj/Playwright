@@ -1,36 +1,24 @@
-import {expect, test} from "@playwright/test"
-import loginPage from "../pages/loginPage"
-import homePage from "../pages/homePage"
-import checkoutPage from "../pages/checkoutPage"
-import finishPage from "../pages/finishPage"
+import {expect, test} from "../helpers/fixture"
 
-test("Add Item to Cart and checkout ", async({page})=>{
-    const login = new loginPage(page)
-    const home = new homePage(page)
-    const checkout = new checkoutPage(page)
-    const finish = new finishPage(page)
-
+test("Add Item to Cart and checkout ", async({page,loginPageElement,homePageElement,checkoutPageElement,finishPageElement})=>{
+    
     await page.goto(`https://www.saucedemo.com/`)
-    await login.enterFirstName("standard_user")
-    await login.enterPassword("secret_sauce")
-    await login.clickLogin()
+    await loginPageElement.enterFirstName("standard_user")
+    await loginPageElement.enterPassword("secret_sauce")
+    await loginPageElement.clickLogin()
     expect(await page.title()).toBe("Swag Labs") //This part will be moved into a fixture 
 
-    await home.verifyHeadlineText
-    await home.addToCartButton()
-    await home.clickCartButton()
-    await home.verifyHeadlineTextInCheckout()
-    await home.continuetoCheckout()
+    await homePageElement.verifyHeadlineText
+    await homePageElement.addToCartButton()
+    await homePageElement.clickCartButton()
+    await homePageElement.verifyHeadlineTextInCheckout()
+    await homePageElement.continuetoCheckout()
 
-    await checkout.checkoutFirstNameData("test")
-    await checkout.checkoutLastNameData("lastname")
-    await checkout.checkoutZipCodeData("address1")
-    await checkout.checkoutContinueButton()
+    await checkoutPageElement.checkoutFirstNameData("test")
+    await checkoutPageElement.checkoutLastNameData("lastname")
+    await checkoutPageElement.checkoutZipCodeData("address1")
+    await checkoutPageElement.checkoutContinueButton()
 
-    await finish.verifyFinishPageHeadline()
-    await finish.clickOnFinishButton()
-
-
-
-
+    await finishPageElement.verifyFinishPageHeadline()
+    await finishPageElement.clickOnFinishButton()
 })
