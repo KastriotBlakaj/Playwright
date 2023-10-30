@@ -1,5 +1,5 @@
 import { expect, test } from "../helpers/fixture";
-import * as data from "../testData/testData.json"
+import * as data from "../testData/testData.json";
 
 test("Add Item to Cart and checkout ", async ({
   page,
@@ -8,7 +8,6 @@ test("Add Item to Cart and checkout ", async ({
   checkoutPageElement,
   finishPageElement,
 }) => {
-    
   await page.goto(`https://www.saucedemo.com/`);
   await loginPageElement.enterFirstName(data.email);
   await loginPageElement.enterPassword(data.password);

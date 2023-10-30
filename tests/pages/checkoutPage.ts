@@ -1,26 +1,31 @@
-import { Page , Locator} from "@playwright/test";
+import { Page, Locator } from "@playwright/test";
 
+export default class checkoutPage {
+  private readonly checkoutFirstNameTextField: Locator;
+  private readonly checkoutLastNameTextField: Locator;
+  private readonly checkoutZipCodeTextField: Locator;
+  private readonly checkoutcontinueButton: Locator;
 
-export default class checkoutPage{  
+  constructor(public page: Page) {
+    this.checkoutFirstNameTextField = this.page.locator("#first-name");
+    this.checkoutLastNameTextField = this.page.locator("#last-name");
+    this.checkoutZipCodeTextField = this.page.locator("#postal-code");
+    this.checkoutcontinueButton = this.page.locator('input[id="continue"]');
+  }
 
-    constructor(public page:Page){
-    }
+  async checkoutFirstNameData(checkoutfirstname: string) {
+    await this.checkoutFirstNameTextField.fill(checkoutfirstname);
+  }
 
+  async checkoutLastNameData(checkoutlastname: string) {
+    await this.checkoutLastNameTextField.fill(checkoutlastname);
+  }
 
-    async checkoutFirstNameData(checkoutfirstname: string){
-        await this.page.locator('#first-name').type(checkoutfirstname)
-    }
+  async checkoutZipCodeData(checkoutzipcode) {
+    await this.checkoutZipCodeTextField.fill(checkoutzipcode);
+  }
 
-    async checkoutLastNameData(checkoutlastname:string){
-        await this.page.locator('#last-name').type(checkoutlastname)
-    }
-    
-    async checkoutZipCodeData(checkoutzipcode){
-        await this.page.locator('#postal-code').type(checkoutzipcode)
-    }
-
-    async checkoutContinueButton(){
-        await this.page.click('input[id="continue"]');
-    }
-
+  async checkoutContinueButton() {
+    await this.checkoutcontinueButton.click();
+  }
 }
